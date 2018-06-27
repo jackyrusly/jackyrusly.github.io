@@ -1,0 +1,31 @@
+version: 2
+jobs:
+  build:
+    branches:
+      ignore:
+        - master
+    docker:
+      - image: circleci/node:8
+    working_directory: ~/jackyrusly.github.io
+    environment:
+      - SOURCE_BRANCH: develop
+      - TARGET_BRANCH: master
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      - run:
+          name: Run Tests
+          command: npm test
+      - deploy:
+          name: Deploy
+          command: bash ./.circleci/deploy.sh
