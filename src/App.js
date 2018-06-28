@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import Home from './components/Home';
+import Footer from './components/Footer';
+import './App.scss';
 
 class App extends Component {
     render() {
         return (
             <div>
-                <h1>Welcome to Jacky Rusly</h1>
+                <Home />
+                <Footer />
             </div>
-        )
+        );
     }
 }
 
