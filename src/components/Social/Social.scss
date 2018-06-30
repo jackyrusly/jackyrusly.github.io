@@ -8,15 +8,38 @@
     .fab {
         flex-basis: auto;
         color: white;
-        
     }
 
     a {
-        margin: 20px
+        margin: 20px;
     }
 
     a:hover {
         animation: bounce 1s;
+    }
+}
+
+@media screen and (min-width: 355px) {
+    #social-container .fab {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 555px) {
+    #social-container .fab {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #social-container .fab {
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #social-container .fab {
+        font-size: 5em;
     }
 }
 
