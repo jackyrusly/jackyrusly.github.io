@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    color: white;
 
     #avatar {
         width: 140px;
@@ -12,12 +13,14 @@
     }
 
     #home-title {
+        text-align: center;
         font-size: 50px;
         font-weight: bold;
         margin: 30px;
     }
 
     #home-description {
+        text-align: center;
         font-size: 25px;
     }
 }
