@@ -19,7 +19,11 @@
         "eslint": "^5.0.1",
         "eslint-plugin-react": "^7.10.0",
         "jest": "^23.2.0",
+        "jest-css-modules": "^1.1.0",
         "node-sass": "^4.9.0",
         "parcel-bundler": "^1.9.3"
+    },
+    "jest": {
+        "transform": { ".*": "<rootDir>/node_modules/jest-css-modules" }
     }
 }
