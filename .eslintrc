@@ -4,18 +4,22 @@
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true,
-            "modules": true,
-            "experimentalObjectRestSpread": true
+            "modules": true
         }
     },
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended"
     ],
+    "settings": {
+      "react": {
+        "version": "16.4.1"
+      }
+    },
     "rules": {
-        "indent": "warn",
-        "semi": "warn",
-        "quotes": ["warn", "single", { "allowTemplateLiterals": true }]
+        "indent": ["error", 2],
+        "semi": "error",
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }]
     },
     "env": {
         "browser": true,

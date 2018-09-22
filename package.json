@@ -1,29 +1,33 @@
 {
-    "name": "jackyrusly.github.io",
-    "version": "1.0.0",
-    "private": true,
-    "scripts": {
-        "start": "parcel index.html",
-        "build": "parcel build index.html",
-        "test": "jest"
-    },
-    "author": "jrusly",
-    "dependencies": {
-        "react": "^16.4.1",
-        "react-dom": "^16.4.1"
-    },
-    "devDependencies": {
-        "babel-jest": "^23.2.0",
-        "babel-preset-env": "^1.7.0",
-        "babel-preset-react": "^6.24.1",
-        "eslint": "^5.0.1",
-        "eslint-plugin-react": "^7.10.0",
-        "jest": "^23.2.0",
-        "jest-css-modules": "^1.1.0",
-        "node-sass": "^4.9.0",
-        "parcel-bundler": "^1.9.3"
-    },
-    "jest": {
-        "transform": { ".*": "<rootDir>/node_modules/jest-css-modules" }
+  "name": "jackyrusly.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "lint": "eslint *.js src",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest"
+  },
+  "author": "jrusly",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.2.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.0.1",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.2.0",
+    "jest-css-modules": "^1.1.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.9.3"
+  },
+  "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/jest-css-modules"
     }
+  }
 }
