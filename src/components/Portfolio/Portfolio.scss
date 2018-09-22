@@ -20,6 +20,10 @@
     @media screen and (min-width: 1024px) {
       width: calc(100% - 20rem);
     }
+    
+    .portfolio-item:first-of-type {
+      margin-top: 0 !important;
+    }
   
     .portfolio-item {
       flex-basis: 300px;
