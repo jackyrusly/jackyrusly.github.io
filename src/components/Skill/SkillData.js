@@ -5,7 +5,7 @@ export default [
       'Object Oriented Programming', 'Event Loop', 'Agile Methodology',
       'Continuous Integration', 'Continuous Delivery', 'Microservices',
       'Serverless', 'Test Automation (Unit, Integration, E2E)', 'Version Control System',
-      'Web Scraping',
+      'Data Warehouse', 'Web Scraping',
     ],
   },
   {
@@ -34,7 +34,7 @@ export default [
   },
   {
     name: 'Testing',
-    skills: ['Jest', 'Mocha', 'Chai', 'Nightwatch', 'xUnit'],
+    skills: ['Jest', 'Enzyme', 'Mocha', 'Chai', 'Nightwatch', 'xUnit'],
   },
   {
     name: 'Tools',
