@@ -18,18 +18,18 @@ class Snow extends Component {
       this.particles.push({
         x: Math.random() * this.w,
         y: Math.random() * this.h,
-        r: Math.random() * 2.5 + 1,
+        r: Math.random() * 2 + 1,
         d: Math.random() * this.maxParticles,
       });
     }
 
     this.ctx = this.canvas.getContext('2d');
-    setInterval(this.draw, 30);
+    setInterval(this.draw, 33);
   }
 
   draw() {
     this.ctx.clearRect(0, 0, this.w, this.h);
-    this.ctx.fillStyle = 'rgba(255,255,255,0.8)';
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
     this.ctx.beginPath();
 
     for (let i = 0; i < this.maxParticles; i++) {
@@ -51,7 +51,6 @@ class Snow extends Component {
 
       p.y += Math.cos(this.angle + p.d) + 1 + p.r / 2;
       p.x += Math.sin(this.angle) * 2;
-
 
       if (p.x > this.w + 7 || p.x < -7 || p.y > this.h) {
         if (i % 3 > 0) {
