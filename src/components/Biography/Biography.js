@@ -22,7 +22,7 @@ const Biography = () => (
         <h5>Moonlay Technologies</h5>
         <p className="period">May 2017 - July 2018</p>
         <p>
-          I worked as a Software Developer at Moonlay Technologies for 1 year and 3 months. While in the company, i develop and maintenance Moonlay Technologies clients application.
+          I worked as a Software Developer at Moonlay Technologies for 1 year and 3 months. While in the company, I develop and maintenance Moonlay Technologies clients application.
         </p>
       </div>
     </div>
