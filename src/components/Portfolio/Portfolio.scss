@@ -20,16 +20,12 @@
     @media screen and (min-width: 1024px) {
       width: calc(100% - 20rem);
     }
-    
-    .portfolio-item:first-of-type {
-      margin-top: 0 !important;
-    }
   
     .portfolio-item {
       flex-basis: 300px;
       background: white;
       color: rgb(69, 90, 100);
-      margin: 20px;
+      margin: 0 15px 30px 15px;
       padding: 20px;
       text-align: center;
       border-radius: 10px;
