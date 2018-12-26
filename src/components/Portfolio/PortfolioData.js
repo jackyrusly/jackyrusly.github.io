@@ -21,7 +21,7 @@ export default [
     description: 'BPBD android application',
     icons: ['fab fa-angular fa-2x', 'fab fa-php fa-2x'],
     links: [
-      { text: 'Play Store', link: 'https://play.google.com/store/apps/details?id=com.jrusly.BPBD&hl=in' },
+      { text: 'APK', link: 'https://drive.google.com/open?id=168QKG_fji7RpZmjS_HCjMUl5bpdmbzDb' },
     ],
   },
   {
