@@ -9,9 +9,9 @@ const Biography = () => (
       <div className="event-content">
         <h4>Full Stack Developer</h4>
         <h5>VIP Plaza</h5>
-        <p className="period">August 2018 - Present</p>
+        <p className="period">August 2018 - January 2019</p>
         <p>
-          Currently work here.
+          I worked as a Full Stack Developer at VIP Plaza for 6 months. While in the company, I develop <a href="https://m.vipplaza.co.id" target="_blank" rel="noopener noreferrer">VIP Plaza Progressive Web App</a>.
         </p>
       </div>
     </div>
