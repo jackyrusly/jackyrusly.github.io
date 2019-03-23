@@ -5,6 +5,15 @@ const Biography = () => (
   <div id="biography-container">
     <h1>Biography</h1>
     <div className="item-event current">
+      <span className="date">2019</span>
+      <div className="event-content">
+        <h4>Software Engineer</h4>
+        <h5>Lemonilo</h5>
+        <p className="period">March 2019 - Present</p>
+        <p>Currently work here.</p>
+      </div>
+    </div>
+    <div className="item-event">
       <span className="date">2018</span>
       <div className="event-content">
         <h4>Full Stack Developer</h4>
