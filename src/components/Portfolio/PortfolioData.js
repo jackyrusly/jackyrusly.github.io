@@ -2,7 +2,7 @@ export default [
   {
     title: 'JRChord',
     description: 'Christian songs chord and lyric android application',
-    icons: ['fab fa-angular fa-2x', 'fab fa-wordpress fa-2x'],
+    icons: ['fab fa-react fa-2x', 'fab fa-node fa-2x'],
     links: [
       { text: 'Play Store', link: 'https://play.google.com/store/apps/details?id=com.jrusly.JRChord&hl=in' },
     ],
