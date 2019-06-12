@@ -60,4 +60,4 @@ var r,e;module.exports=require("./factoryWithThrowingShims")();
 },{"react":"HdMw","./components/Snow":"UDNj","./components/Home":"gFYH","./components/Skill":"tbK6","./components/Portfolio":"MSyE","./components/Biography":"1d+0","./components/Social":"zQe7","./components/Footer":"vXpX","./App.scss":"ZYsj"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./src/App"));function u(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(t.default,null),document.getElementById("app"));
 },{"react":"HdMw","react-dom":"X9zx","./src/App":"FLHj"}]},{},["Focm"], null)
-//# sourceMappingURL=/jackyrusly.github.io.dcd5a980.js.map
+//# sourceMappingURL=/jackyrusly.github.io.7f2a5160.js.map
