@@ -1,7 +1,7 @@
 export default [
   {
     title: 'JRChord',
-    description: 'Christian songs chord and lyric android application',
+    description: 'Christian songs chord and lyric application',
     icons: ['fab fa-react fa-2x', 'fab fa-node fa-2x'],
     links: [
       { text: 'App Store', link: 'https://itunes.apple.com/id/app/jrchord/id1463594254?l=id&mt=8' },
