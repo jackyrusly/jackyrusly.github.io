@@ -9,6 +9,14 @@ export default [
     ],
   },
   {
+    title: 'JRSpace',
+    description: 'Visually about me in the Game World',
+    icons: ['fab fa-js-square fa-2x', 'fab fa-node fa-2x'],
+    links: [
+      { text: 'Demo', link: 'https://www.jackyrusly.web.id' },
+    ],
+  },
+  {
     title: 'JRGame',
     description: 'Multiplayer online RPG with Phaser 3 and Socket.io',
     icons: ['fab fa-js-square fa-2x', 'fab fa-node fa-2x'],
