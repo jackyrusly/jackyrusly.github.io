@@ -30,7 +30,7 @@ export default [
     description: 'Ester Wijaya website',
     icons: ['fab fa-react fa-2x', 'fab fa-node fa-2x'],
     links: [
-      { text: 'Demo', link: 'https://www.esterwijaya.com' },
+      { text: 'Website', link: 'https://www.esterwijaya.com' },
     ],
   },
   {
