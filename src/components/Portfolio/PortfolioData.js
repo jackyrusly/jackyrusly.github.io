@@ -26,6 +26,14 @@ export default [
     ],
   },
   {
+    title: 'Ester Wijaya',
+    description: 'Ester Wijaya website',
+    icons: ['fab fa-react fa-2x', 'fab fa-node fa-2x'],
+    links: [
+      { text: 'Demo', link: 'https://www.esterwijaya.com' },
+    ],
+  },
+  {
     title: 'BPBD Kalimantan Selatan',
     description: 'BPBD android application',
     icons: ['fab fa-angular fa-2x', 'fab fa-php fa-2x'],
