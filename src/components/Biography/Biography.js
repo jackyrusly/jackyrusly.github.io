@@ -7,9 +7,9 @@ const Biography = () => (
     <div className="item-event current">
       <span className="date">2019</span>
       <div className="event-content">
-        <h4>Software Engineer</h4>
+        <h4>Software Engineer, Technical Architect (Frontend)</h4>
         <h5>Lemonilo</h5>
-        <p className="period">March 2019 - Present</p>
+        <p className="period">March 2019 - January 2022</p>
         <p>Currently work here.</p>
       </div>
     </div>
@@ -20,7 +20,7 @@ const Biography = () => (
         <h5>VIP Plaza</h5>
         <p className="period">August 2018 - January 2019</p>
         <p>
-          I worked as a Full Stack Developer at VIP Plaza for 6 months. While in the company, I develop <a href="https://m.vipplaza.co.id" target="_blank" rel="noopener noreferrer">VIP Plaza Progressive Web App</a>.
+          I worked as a Software Engineer and Technical Architect (Frontend) at Lemonilo for almost 3 years. While in the company, I develop <a href="https://www.lemonilo.com" target="_blank" rel="noopener noreferrer">Lemonilo Website</a> and Lemonilo App using React Native.
         </p>
       </div>
     </div>
